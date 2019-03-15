@@ -2,7 +2,6 @@
   margin: auto;
   width: auto;
   height: 1000px;
-  overflow: hidden;
   background: rgb(51, 51, 51);
 }
 
@@ -11,4 +10,10 @@
   margin-bottom: 150px;
 }
 
+.bordering {
+  border: 1px solid #fff;
+}
 
+.navW_H {
+  height: 20px;
+}
