@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Modal, ModalBody, FormGroup, FormText, CustomInput} from 'reactstrap';
 import './App.css';
-import Audio from './components/Audio'
 
 
 class App extends Component {
@@ -37,7 +36,6 @@ class App extends Component {
           </FormGroup>
           <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}PROCESS</Button>
           </ModalBody>
-          <Audio />
         </Modal>
       </div>
     );
@@ -45,3 +43,4 @@ class App extends Component {
 }
 
 export default App;
+
